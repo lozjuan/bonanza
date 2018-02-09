@@ -109,7 +109,7 @@ body {
 }
 
 [data-slides-home] {
-    background-image: url(../imgs/img1.jpg);
+    background-image: url(../imgs/img1.jpg) center center;
     transition: background-image 1s linear;
 }
 
@@ -125,12 +125,6 @@ body {
 #logo-home {
     height: 40%;
     margin-top: -270px;
-}
-
-#slides-title {
-    margin-top: 5px;
-    height: auto;
-    width: 20%;
 }
 
 #gallery.active {

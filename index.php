@@ -44,89 +44,70 @@
         </div>
         <div class="section" id="section1">
             <div class="slide active" id="slide1">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img6.png" />
             </div>
             <div class="slide" id="slide2">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/dyp1.png" />
             </div>
             <div class="slide" id="slide3">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img5.jpg" />
             </div>
             <div class="slide" id="slide4">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img7.png" />
             </div>
             <div class="slide" id="slide4">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img8.png" />
             </div>
             <div class="slide" id="slide4">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img9.png" />
             </div>
         </div>
         <div class="section" id="section2">
             <div class="slide" id="slide1">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/variete.jpg" />
             </div>
             <div class="slide" id="slide2">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/localisation.png" />
             </div>
         </div>
         <div class="section" id="section3">
             <div class="slide active" id="slide1">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img11.png" />
             </div>
             <div class="slide" id="slide2">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img10.png" />
             </div>
             <div class="slide" id="slide3">
-                <img id="slides-title" data-src="imgs/title.png">
                 <video id="landscape" loop muted controls="false" data-autoplay>
                     <source data-src="imgs/vid.mp4" type="video/mp4" />
                 </video>
             </div>
             <div class="slide" id="slide4">
-                <img id="slides-title" src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img12.gif" />
             </div>
             <div class="slide" id="slide5">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img13.png" />
             </div>
             <div class="slide" id="slide6">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img14.png" />
             </div>
             <div class="slide" id="slide7">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img15.png" />
             </div>
             <div class="slide" id="slide8">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img16.png" />
             </div>
         </div>
         <div class="section" id="section4">
             <div class="slide active" id="slide1">
-                <img id="slides-title" data-src="imgs/title.png">
                 <video id="landscape" loop muted controls="false" data-autoplay>
                     <source data-src="imgs/vid1.MP4" type="video/mp4" />
                 </video>
             </div>
             <div class="slide" id="slide2">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img17.png" />
             </div>
             <div class="slide" id="slide3">
-                <img id="slides-title" data-src="imgs/title.png">
                 <img id="landscape" data-src="imgs/img18.png" />
             </div>
         </div>
