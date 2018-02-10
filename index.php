@@ -5,7 +5,7 @@
     <?php @session_start();?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Finca Bonanza</title>
-    <meta name="Resource-type" content="Document" />
+    <meta name="Resource-type" content="Document"/>
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -119,7 +119,7 @@
         var images = $slides.data('slides-home').replace("[", "").replace("]", "").split(",");
         var count = images.length;
         var slideshow = function() {
-            if ($(window).width()> 768){
+            if ($(window).width() > 980){
                 $slides
                 .css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
                 .show(0, function() {
