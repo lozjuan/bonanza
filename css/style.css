@@ -161,7 +161,7 @@ body {
     display: block;
 }
 
-@media (max-width : 450px) { 
+@media (max-width : 720px) { 
     #logo-home {
         margin-top: -80px;
     }
