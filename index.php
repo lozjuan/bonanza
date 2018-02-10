@@ -18,7 +18,7 @@
             anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
             menu: '#menu',
             verticalCentered: true,
-            scrollingSpeed: 300,
+            scrollingSpeed: 800,
             loopHorizontal: true,
             scrollBar: false,
         });
