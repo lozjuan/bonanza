@@ -6,8 +6,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Finca Bonanza</title>
     <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
@@ -119,11 +122,17 @@
         var images = $slides.data('slides-home').replace("[", "").replace("]", "").split(",");
         var count = images.length;
         var slideshow = function() {
-            $slides
+            if ($(window).width()> 768){
+                $slides
                 .css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
                 .show(0, function() {
                     setTimeout(slideshow, 3000);
                 });
+            } else {
+                $slides
+                .css('background-image', 'url("imgs/img3.jpg")').show()
+            }
+            
         };
         slideshow();
     }(jQuery));
