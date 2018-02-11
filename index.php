@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Finca Bonanza</title>
     <meta name="Resource-type" content="Document"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon-96x96.png">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
