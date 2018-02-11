@@ -11,6 +11,14 @@
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $('#fullpage').fullpage({
@@ -44,71 +52,109 @@
         </div>
         <div class="section" id="section1">
             <div class="slide active" id="slide1">
-                <img id="landscape" data-src="imgs/img6.png" />
+                <a class="fancybox" rel="gallery" href="imgs/img6.png">
+                    <img id="landscape" data-src="imgs/img6.png" />
+                </a>
             </div>
             <div class="slide" id="slide2">
-                <img id="landscape" data-src="imgs/dyp1.png" />
+                <a class="fancybox" rel="gallery" href="imgs/dyp1.png">
+                    <img id="landscape" data-src="imgs/dyp1.png" />
+                </a>
             </div>
             <div class="slide" id="slide3">
-                <img id="landscape" data-src="imgs/img5.jpg" />
+                 <a class="fancybox" rel="gallery" href="imgs/img5.jpg">
+                    <img id="landscape" data-src="imgs/img5.jpg" />
+                </a>
             </div>
             <div class="slide" id="slide4">
-                <img id="landscape" data-src="imgs/img7.png" />
+                <a class="fancybox" rel="gallery" href="imgs/img7.png">
+                    <img id="landscape" data-src="imgs/img7.png" />
+                </a>
             </div>
             <div class="slide" id="slide4">
-                <img id="landscape" data-src="imgs/img8.png" />
+                <a class="fancybox" rel="gallery" href="imgs/img8.png">
+                    <img id="landscape" data-src="imgs/img8.png" />
+                </a>
             </div>
-            <div class="slide" id="slide4">
-                <img id="landscape" data-src="imgs/img9.png" />
+            <div class="slide" id="slide5">
+                <a class="fancybox" rel="gallery" href="imgs/img9.png">
+                    <img id="landscape" data-src="imgs/img9.png" />
+                </a>
             </div>
         </div>
         <div class="section" id="section2">
             <div class="slide" id="slide1">
-                <img id="landscape" data-src="imgs/variete.jpg" />
+                <a class="fancybox" rel="gallery1" href="imgs/variete.jpg">
+                    <img id="landscape" data-src="imgs/variete.jpg" />
+                </a>
             </div>
             <div class="slide" id="slide2">
-                <img id="landscape" data-src="imgs/localisation.png" />
+                <a class="fancybox" rel="gallery1" href="imgs/localisation.png">
+                    <img id="landscape" data-src="imgs/localisation.png" />
+                </a>
             </div>
         </div>
         <div class="section" id="section3">
             <div class="slide active" id="slide1">
-                <img id="landscape" data-src="imgs/img11.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img11.png">
+                    <img id="landscape" data-src="imgs/img11.png" />
+                </a>
             </div>
             <div class="slide" id="slide2">
-                <img id="landscape" data-src="imgs/img10.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img10.png">
+                    <img id="landscape" data-src="imgs/img10.png" />
+                </a>
             </div>
             <div class="slide" id="slide3">
-                <video id="landscape" loop muted controls="false" data-autoplay>
-                    <source data-src="imgs/vid.mp4" type="video/mp4" />
-                </video>
+                <a class="fancybox" data-fancybox-type="iframe" rel="gallery2" href="imgs/vid.mp4">
+                    <video id="landscape" loop muted controls="false" data-autoplay>
+                        <source data-src="imgs/vid.mp4" type="video/mp4" />    
+                    </video>
+                </a>
             </div>
             <div class="slide" id="slide4">
-                <img id="landscape" data-src="imgs/img12.gif" />
+                <a class="fancybox" rel="gallery2" href="imgs/img12.gif">
+                    <img id="landscape" data-src="imgs/img12.gif" />
+                </a>
             </div>
             <div class="slide" id="slide5">
-                <img id="landscape" data-src="imgs/img13.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img13.png">
+                    <img id="landscape" data-src="imgs/img13.png" />
+                </a>
             </div>
             <div class="slide" id="slide6">
-                <img id="landscape" data-src="imgs/img14.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img14.png">
+                    <img id="landscape" data-src="imgs/img14.png" />
+                </a>
             </div>
             <div class="slide" id="slide7">
-                <img id="landscape" data-src="imgs/img15.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img15.png">
+                    <img id="landscape" data-src="imgs/img15.png" />
+                </a>
             </div>
             <div class="slide" id="slide8">
-                <img id="landscape" data-src="imgs/img16.png" />
+                <a class="fancybox" rel="gallery2" href="imgs/img16.png">
+                    <img id="landscape" data-src="imgs/img16.png" />
+                </a>
             </div>
         </div>
         <div class="section" id="section4">
             <div class="slide active" id="slide1">
-                <video id="landscape" loop muted controls="false" data-autoplay>
-                    <source data-src="imgs/vid1.MP4" type="video/mp4" />
-                </video>
+                <a class="fancybox" data-fancybox-type="iframe" rel="gallery3" href="imgs/vid1.MP4">
+                    <video id="landscape" loop muted controls="false" data-autoplay>
+                        <source data-src="imgs/vid1.MP4" type="video/mp4" />
+                    </video>
+                </a>
             </div>
             <div class="slide" id="slide2">
-                <img id="landscape" data-src="imgs/img17.png" />
+                <a class="fancybox" rel="gallery3" href="imgs/img17.png">
+                    <img id="landscape" data-src="imgs/img17.png" />
+                </a>
             </div>
             <div class="slide" id="slide3">
-                <img id="landscape" data-src="imgs/img18.png" />
+                <a class="fancybox" rel="gallery3" href="imgs/img18.png">
+                    <img id="landscape" data-src="imgs/img18.png" />
+                </a>
             </div>
         </div>
     </div>
@@ -133,6 +179,14 @@
         };
         slideshow();
     }(jQuery));
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox({
+            openEffect  : 'none',
+            closeEffect : 'none'
+        });
+    });
     </script>
 </body>
 
